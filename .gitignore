@@ -1,0 +1,4 @@
+# local backups of the original bundles
+.backup/
+.DS_Store
+Thumbs.db
