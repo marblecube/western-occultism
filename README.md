@@ -87,7 +87,7 @@ then descend in Chaldean order:  ♄ → ♃ → ♂ → ☉ → ♀ → ☿ →
 - **Sunrise and sunset** are calculated in the browser with the NOAA solar algorithm. There is no API and no network call.
 - **The selected city sets the time zone**, not your device. Pick Tokyo while you're sitting in Los Angeles and every time, weekday and ruler shown is Tokyo's. Daylight saving time comes from the browser's built-in time zone database.
 - **Custom location**: enter a latitude, a longitude and any IANA time zone, for example `Europe/Paris`.
-- **Use my location** uses the device GPS and the device's own time zone.
+- **Choose my city** opens a searchable list of every built-in city. Cities that share this device's time zone are suggested first, and no location permission or network request is involved.
 - Your choice is saved on the device, so it's still selected the next time you open the page.
 
 ---
